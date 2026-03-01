@@ -20,7 +20,15 @@ namespace Jo_Ken_PO
             Console.WriteLine("3 - Tisoura :");
             Console.WriteLine("4 - Sair :");
 
-            short v1 = short.Parse(Console.ReadLine());
+            short jogador = short.Parse(Console.ReadLine());
+
+            Random random = new Random();
+            int computador = random.Next(1,4);
+
+            if(jogador == computador)
+            {
+                Console.WriteLine("empate");
+            }
         }
     }
 }
