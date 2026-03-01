@@ -16,23 +16,29 @@ namespace Jo_Ken_PO
 
             Console.WriteLine("Escolha as opção: ");
             Console.WriteLine($"1 - Pedra ");
-            Console.WriteLine("2 - Papel :");
-            Console.WriteLine("3 - Tisoura :");
-            Console.WriteLine("4 - Sair :");
+            Console.WriteLine("2 - Papel:");
+            Console.WriteLine("3 - Tisoura:");
+            Console.WriteLine("4 - Sair:");
 
             int jogador = int.Parse(Console.ReadLine());
 
+            if(jogador == 4)
+            {
+                Console.WriteLine("Saindo do jogo");
+                System.Environment.Exit(0);
+            }
+
             Random random = new Random();
-            int computador = random.Next(1,4);
+            int computador = random.Next(1, 4);
 
             Console.WriteLine($"o Computador escolheu {computador}");
 
-            if(jogador == computador)
+            if (jogador == computador)
             {
                 Console.WriteLine("empate");
             }
             else if (
-                (jogador == 1 && computador  == 3) ||
+                (jogador == 1 && computador == 3) ||
                 (jogador == 2 && computador == 1) ||
                 (jogador == 3 && computador == 2)
             )
