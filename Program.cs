@@ -20,14 +20,28 @@ namespace Jo_Ken_PO
             Console.WriteLine("3 - Tisoura :");
             Console.WriteLine("4 - Sair :");
 
-            short jogador = short.Parse(Console.ReadLine());
+            int jogador = int.Parse(Console.ReadLine());
 
             Random random = new Random();
             int computador = random.Next(1,4);
 
+            Console.WriteLine($"o Computador escolheu {computador}");
+
             if(jogador == computador)
             {
                 Console.WriteLine("empate");
+            }
+            else if (
+                (jogador == 1 && computador  == 3) ||
+                (jogador == 2 && computador == 1) ||
+                (jogador == 3 && computador == 2)
+            )
+            {
+                Console.WriteLine("você venceu");
+            }
+            else
+            {
+                Console.WriteLine("Você perdeu");
             }
         }
     }

@@ -1,0 +1,15 @@
+D:\Jo-Ken-Po\bin\Debug\net10.0\Jo-Ken-Po.exe
+D:\Jo-Ken-Po\bin\Debug\net10.0\Jo-Ken-Po.deps.json
+D:\Jo-Ken-Po\bin\Debug\net10.0\Jo-Ken-Po.runtimeconfig.json
+D:\Jo-Ken-Po\bin\Debug\net10.0\Jo-Ken-Po.dll
+D:\Jo-Ken-Po\bin\Debug\net10.0\Jo-Ken-Po.pdb
+D:\Jo-Ken-Po\obj\Debug\net10.0\Jo-Ken-Po.GeneratedMSBuildEditorConfig.editorconfig
+D:\Jo-Ken-Po\obj\Debug\net10.0\Jo-Ken-Po.AssemblyInfoInputs.cache
+D:\Jo-Ken-Po\obj\Debug\net10.0\Jo-Ken-Po.AssemblyInfo.cs
+D:\Jo-Ken-Po\obj\Debug\net10.0\Jo-Ken-Po.csproj.CoreCompileInputs.cache
+D:\Jo-Ken-Po\obj\Debug\net10.0\Jo-Ken-Po.sourcelink.json
+D:\Jo-Ken-Po\obj\Debug\net10.0\Jo-Ken-Po.dll
+D:\Jo-Ken-Po\obj\Debug\net10.0\refint\Jo-Ken-Po.dll
+D:\Jo-Ken-Po\obj\Debug\net10.0\Jo-Ken-Po.pdb
+D:\Jo-Ken-Po\obj\Debug\net10.0\Jo-Ken-Po.genruntimeconfig.cache
+D:\Jo-Ken-Po\obj\Debug\net10.0\ref\Jo-Ken-Po.dll
